@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 10;
+  padding: 0;
+}
+header {
+  background-color: #004aad;
+  color: white;
+  font-size: 40px;
+  font-family: 'Garamond',serif;
+  padding: 10px;
+  text-align: center;
+}
+
+.intro-line {
+  font-size: 24px;
+  font-family:'Garamond',serif;
+  color: rgba(70, 215, 223, 0.5);
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+nav {
+  background-color: #e3e3e368;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #004aad;
+  font-weight: bold;
+}
+
+
+.sport-box {
+  width: 400px;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 5px #cccccc96;
+}
+.sport-box img {
+  width: 100%;
+  display: block;
+}
+.overlay-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+  color: white;
+  padding: 10px 0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.champion-block {
+  text-align: center;
+  margin-top: 20px;
+}
+.champion {
+  display: inline-block;
+  margin: 15px;
+}
+.champion img {
+  border: 2px solid #ccc;
+  border-radius: 6px;
+}
+.champion p {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+footer {
+  background-color: #3b74be;
+  font-family: 'Garamond',serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
